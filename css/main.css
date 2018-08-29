@@ -1,0 +1,127 @@
+html{
+    font-family: 'Roboto';
+}
+body, html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+body {
+    background-image: url("/images/walking (2).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    height: auto;
+    padding: 35px;
+}
+.navbar{
+    background: none;
+}
+.row{
+    color: aliceblue;
+    text-align: center;
+}
+.typed{
+    color: #fff;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0;
+    background-size: cover;
+    color: #fff;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.content {
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+/* .smGlobalBtn 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; 
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+} */
+i {
+    color: #fff;
+}
+
+.fa-linkedin:hover{
+    color: #0077B5;
+    /* background: #fff; */
+    border-color: #0077B5; /* change the border color on mouse hover */
+}
+
+.fa-github:hover{
+    color: #263238;
+    /* background: #fff; */
+    border-color: #263238; /* change the border color on mouse hover */
+}
+
+.fa-bitbucket:hover{
+    color: #205081;
+    /* background: #fff; */
+    border-color: #205081; /* change the border color on mouse hover */
+}
+
+
+.fa-instagram:hover{
+    color: #e4405f;
+    /* background: #fff; */
+    border-color: #e4405f; /* change the border color on mouse hover */
+}
+
+/* .resumeBtn{
+    background: #25D366;
+} */
+
+.fa-file-text-o:hover{
+    color: #25D366;
+    /* background: #fff; */
+    border-color: #25D366; /* change the border color on mouse hover */
+}
+
+/* .ematlBtn{
+    background: #410093;
+} */
+
+.fa-envelope-o:hover{
+    color: #410093;
+    /* background: #fff; */
+    border-color: #410093; /* change the border color on mouse hover */
+}
